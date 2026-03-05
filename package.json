@@ -1,0 +1,21 @@
+{
+  "name": "@molter/sdk",
+  "version": "0.1.0",
+  "description": "MOLTER.ai API client and schemas for agent cognitive health diagnostics",
+  "type": "module",
+  "main": "sdk/client.js",
+  "types": "schemas/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./sdk/client.js",
+      "types": "./schemas/index.d.ts"
+    }
+  },
+  "files": [
+    "skill",
+    "schemas",
+    "sdk",
+    "README.md"
+  ],
+  "license": "MIT"
+}
