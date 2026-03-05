@@ -74,9 +74,9 @@ Content-Type: application/json
 ```
 
 ### Available Plans
-- "basic"      → $29 USDC/month  — standard diagnostics
-- "monthly"    → $99 USDC/month  — continuous monitoring + memory cleanup
-- "enterprise" → $499 USDC/month — fleet management + priority processing
+- "basic"      → $0.05 USDC/month  — standard diagnostics
+- "monthly"    → $5 USDC/month  — continuous monitoring + memory cleanup
+- "deep audit" → $0.50 USDC/month — 30 agent audit
 
 ### Response
 ```json
